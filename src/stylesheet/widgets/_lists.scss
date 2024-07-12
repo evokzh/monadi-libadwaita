@@ -185,7 +185,7 @@ row.entry {
       opacity: var(--disabled-opacity);
     }
 
-    .dim-label, .subtitle {
+    .dimmed, .dim-label, .subtitle {
       opacity: 1;
     }
   }
@@ -286,7 +286,7 @@ row.spin {
     &.#{$e_type} {
       color: var(--accent-color);
 
-      .dim-label, .subtitle {
+      .dimmed, .dim-label, .subtitle {
         opacity: 1;
       }
     }
